@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "one" {
-  bucket = "jyo-demo-buckets"   # existing bucket name in aws account
+  bucket = "jyo-demo-bucket"   # bucket name to be created
 }
 
 resource "aws_s3_bucket_ownership_controls" "two" {
